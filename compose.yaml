@@ -1,0 +1,12 @@
+services:
+  lab:
+    container_name: pkcs11-provider-hijack-lab
+    image: pkcs11-provider-hijack-lab:local
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "2256:22"
+    restart: unless-stopped
+    stdin_open: true
+    tty: true
