@@ -1,4 +1,4 @@
-# pkcs11-provider-hijack Lab
+# PKCS#11 Provider Hijack Lab
 
 Containerized educational lab for local security testing workflows.
 
